@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B204D3351A09F3C900D667FD /* TNEventsIndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B204D3341A09F3C900D667FD /* TNEventsIndexTableViewController.m */; };
+		B204D3391A09FA7500D667FD /* TNEventIndexCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B204D3371A09FA7500D667FD /* TNEventIndexCollectionViewCell.m */; };
+		B204D33A1A09FA7500D667FD /* TNEventIndexCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B204D3381A09FA7500D667FD /* TNEventIndexCollectionViewCell.xib */; };
+		B29AC5D71A0ACC1A00481F0F /* TNEventsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B29AC5D51A0ACC1A00481F0F /* TNEventsCell.m */; };
+		B29AC5DB1A0ACC6300481F0F /* TNEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29AC5DA1A0ACC6300481F0F /* TNEventsTableViewController.m */; };
+		B29AC5DD1A0C1D8000481F0F /* TNEventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B29AC5DC1A0C1D8000481F0F /* TNEventsCell.xib */; };
+		B29AC5F61A0E362400481F0F /* TNEventsCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B29AC5F51A0E362400481F0F /* TNEventsCellModel.m */; };
+		B2A0F9511A0F686000A92CBC /* events.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2A0F9501A0F686000A92CBC /* events.plist */; };
+		B2A96F2D1A09B2F200145668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A96F2C1A09B2F200145668 /* main.m */; };
+		B2A96F301A09B2F200145668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A96F2F1A09B2F200145668 /* AppDelegate.m */; };
+		B2A96F331A09B2F200145668 /* ToNight8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2A96F311A09B2F200145668 /* ToNight8.xcdatamodeld */; };
+		B2A96F391A09B2F200145668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A96F371A09B2F200145668 /* Main.storyboard */; };
+		B2A96F3B1A09B2F200145668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A96F3A1A09B2F200145668 /* Images.xcassets */; };
+		B2A96F3E1A09B2F200145668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A96F3C1A09B2F200145668 /* LaunchScreen.xib */; };
+		B2A96F4A1A09B2F200145668 /* ToNight8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A96F491A09B2F200145668 /* ToNight8Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2A96F441A09B2F200145668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2A96F1F1A09B2F200145668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A96F261A09B2F200145668;
+			remoteInfo = ToNight8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B204D3331A09F3C900D667FD /* TNEventsIndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNEventsIndexTableViewController.h; path = Events/Controller/TNEventsIndexTableViewController.h; sourceTree = "<group>"; };
+		B204D3341A09F3C900D667FD /* TNEventsIndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNEventsIndexTableViewController.m; path = Events/Controller/TNEventsIndexTableViewController.m; sourceTree = "<group>"; };
+		B204D3361A09FA7500D667FD /* TNEventIndexCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNEventIndexCollectionViewCell.h; path = Events/View/TNEventIndexCollectionViewCell.h; sourceTree = "<group>"; };
+		B204D3371A09FA7500D667FD /* TNEventIndexCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNEventIndexCollectionViewCell.m; path = Events/View/TNEventIndexCollectionViewCell.m; sourceTree = "<group>"; };
+		B204D3381A09FA7500D667FD /* TNEventIndexCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TNEventIndexCollectionViewCell.xib; path = Events/View/TNEventIndexCollectionViewCell.xib; sourceTree = "<group>"; };
+		B29AC5D41A0ACC1A00481F0F /* TNEventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNEventsCell.h; path = Events/View/TNEventsCell.h; sourceTree = "<group>"; };
+		B29AC5D51A0ACC1A00481F0F /* TNEventsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNEventsCell.m; path = Events/View/TNEventsCell.m; sourceTree = "<group>"; };
+		B29AC5D91A0ACC6300481F0F /* TNEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNEventsTableViewController.h; path = Events/Controller/TNEventsTableViewController.h; sourceTree = "<group>"; };
+		B29AC5DA1A0ACC6300481F0F /* TNEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNEventsTableViewController.m; path = Events/Controller/TNEventsTableViewController.m; sourceTree = "<group>"; };
+		B29AC5DC1A0C1D8000481F0F /* TNEventsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TNEventsCell.xib; path = Events/View/TNEventsCell.xib; sourceTree = "<group>"; };
+		B29AC5F41A0E362400481F0F /* TNEventsCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TNEventsCellModel.h; path = Events/model/TNEventsCellModel.h; sourceTree = "<group>"; };
+		B29AC5F51A0E362400481F0F /* TNEventsCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TNEventsCellModel.m; path = Events/model/TNEventsCellModel.m; sourceTree = "<group>"; };
+		B2A0F9501A0F686000A92CBC /* events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = events.plist; sourceTree = "<group>"; };
+		B2A96F271A09B2F200145668 /* ToNight8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToNight8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A96F2B1A09B2F200145668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A96F2C1A09B2F200145668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2A96F2E1A09B2F200145668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2A96F2F1A09B2F200145668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2A96F321A09B2F200145668 /* ToNight8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToNight8.xcdatamodel; sourceTree = "<group>"; };
+		B2A96F381A09B2F200145668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2A96F3A1A09B2F200145668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2A96F3D1A09B2F200145668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2A96F431A09B2F200145668 /* ToNight8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToNight8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A96F481A09B2F200145668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A96F491A09B2F200145668 /* ToNight8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToNight8Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2A96F241A09B2F200145668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A96F401A09B2F200145668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B204D32C1A09EA9100D667FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B204D3321A09EAFE00D667FD /* Me */,
+				B204D3311A09EAF500D667FD /* Live */,
+				B204D32D1A09EAA700D667FD /* Events */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B204D32D1A09EAA700D667FD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B204D3301A09EADC00D667FD /* Model */,
+				B204D32F1A09EACD00D667FD /* Controller */,
+				B204D32E1A09EAB500D667FD /* View */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		B204D32E1A09EAB500D667FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B204D3361A09FA7500D667FD /* TNEventIndexCollectionViewCell.h */,
+				B204D3371A09FA7500D667FD /* TNEventIndexCollectionViewCell.m */,
+				B204D3381A09FA7500D667FD /* TNEventIndexCollectionViewCell.xib */,
+				B29AC5D41A0ACC1A00481F0F /* TNEventsCell.h */,
+				B29AC5D51A0ACC1A00481F0F /* TNEventsCell.m */,
+				B29AC5DC1A0C1D8000481F0F /* TNEventsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B204D32F1A09EACD00D667FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B204D3331A09F3C900D667FD /* TNEventsIndexTableViewController.h */,
+				B204D3341A09F3C900D667FD /* TNEventsIndexTableViewController.m */,
+				B29AC5D91A0ACC6300481F0F /* TNEventsTableViewController.h */,
+				B29AC5DA1A0ACC6300481F0F /* TNEventsTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B204D3301A09EADC00D667FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B29AC5F41A0E362400481F0F /* TNEventsCellModel.h */,
+				B29AC5F51A0E362400481F0F /* TNEventsCellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B204D3311A09EAF500D667FD /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		B204D3321A09EAFE00D667FD /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		B2A96F1E1A09B2F200145668 = {
+			isa = PBXGroup;
+			children = (
+				B2A96F291A09B2F200145668 /* ToNight8 */,
+				B2A96F461A09B2F200145668 /* ToNight8Tests */,
+				B2A96F281A09B2F200145668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2A96F281A09B2F200145668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A96F271A09B2F200145668 /* ToNight8.app */,
+				B2A96F431A09B2F200145668 /* ToNight8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A96F291A09B2F200145668 /* ToNight8 */ = {
+			isa = PBXGroup;
+			children = (
+				B2A96F2A1A09B2F200145668 /* Supporting Files */,
+				B204D32C1A09EA9100D667FD /* Classes */,
+				B2A96F2E1A09B2F200145668 /* AppDelegate.h */,
+				B2A96F2F1A09B2F200145668 /* AppDelegate.m */,
+				B2A96F371A09B2F200145668 /* Main.storyboard */,
+				B2A96F3A1A09B2F200145668 /* Images.xcassets */,
+				B2A96F3C1A09B2F200145668 /* LaunchScreen.xib */,
+				B2A96F311A09B2F200145668 /* ToNight8.xcdatamodeld */,
+			);
+			path = ToNight8;
+			sourceTree = "<group>";
+		};
+		B2A96F2A1A09B2F200145668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A96F2B1A09B2F200145668 /* Info.plist */,
+				B2A0F9501A0F686000A92CBC /* events.plist */,
+				B2A96F2C1A09B2F200145668 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A96F461A09B2F200145668 /* ToNight8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2A96F491A09B2F200145668 /* ToNight8Tests.m */,
+				B2A96F471A09B2F200145668 /* Supporting Files */,
+			);
+			path = ToNight8Tests;
+			sourceTree = "<group>";
+		};
+		B2A96F471A09B2F200145668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2A96F481A09B2F200145668 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2A96F261A09B2F200145668 /* ToNight8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A96F4D1A09B2F200145668 /* Build configuration list for PBXNativeTarget "ToNight8" */;
+			buildPhases = (
+				B2A96F231A09B2F200145668 /* Sources */,
+				B2A96F241A09B2F200145668 /* Frameworks */,
+				B2A96F251A09B2F200145668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToNight8;
+			productName = ToNight8;
+			productReference = B2A96F271A09B2F200145668 /* ToNight8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2A96F421A09B2F200145668 /* ToNight8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A96F501A09B2F200145668 /* Build configuration list for PBXNativeTarget "ToNight8Tests" */;
+			buildPhases = (
+				B2A96F3F1A09B2F200145668 /* Sources */,
+				B2A96F401A09B2F200145668 /* Frameworks */,
+				B2A96F411A09B2F200145668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2A96F451A09B2F200145668 /* PBXTargetDependency */,
+			);
+			name = ToNight8Tests;
+			productName = ToNight8Tests;
+			productReference = B2A96F431A09B2F200145668 /* ToNight8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2A96F1F1A09B2F200145668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TN;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com.tonight8.com;
+				TargetAttributes = {
+					B2A96F261A09B2F200145668 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B2A96F421A09B2F200145668 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B2A96F261A09B2F200145668;
+					};
+				};
+			};
+			buildConfigurationList = B2A96F221A09B2F200145668 /* Build configuration list for PBXProject "ToNight8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2A96F1E1A09B2F200145668;
+			productRefGroup = B2A96F281A09B2F200145668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A96F261A09B2F200145668 /* ToNight8 */,
+				B2A96F421A09B2F200145668 /* ToNight8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2A96F251A09B2F200145668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A96F391A09B2F200145668 /* Main.storyboard in Resources */,
+				B29AC5DD1A0C1D8000481F0F /* TNEventsCell.xib in Resources */,
+				B2A96F3E1A09B2F200145668 /* LaunchScreen.xib in Resources */,
+				B204D33A1A09FA7500D667FD /* TNEventIndexCollectionViewCell.xib in Resources */,
+				B2A96F3B1A09B2F200145668 /* Images.xcassets in Resources */,
+				B2A0F9511A0F686000A92CBC /* events.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A96F411A09B2F200145668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2A96F231A09B2F200145668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B204D3391A09FA7500D667FD /* TNEventIndexCollectionViewCell.m in Sources */,
+				B29AC5DB1A0ACC6300481F0F /* TNEventsTableViewController.m in Sources */,
+				B2A96F301A09B2F200145668 /* AppDelegate.m in Sources */,
+				B204D3351A09F3C900D667FD /* TNEventsIndexTableViewController.m in Sources */,
+				B2A96F2D1A09B2F200145668 /* main.m in Sources */,
+				B29AC5D71A0ACC1A00481F0F /* TNEventsCell.m in Sources */,
+				B29AC5F61A0E362400481F0F /* TNEventsCellModel.m in Sources */,
+				B2A96F331A09B2F200145668 /* ToNight8.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A96F3F1A09B2F200145668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A96F4A1A09B2F200145668 /* ToNight8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2A96F451A09B2F200145668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A96F261A09B2F200145668 /* ToNight8 */;
+			targetProxy = B2A96F441A09B2F200145668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2A96F371A09B2F200145668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A96F381A09B2F200145668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2A96F3C1A09B2F200145668 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A96F3D1A09B2F200145668 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2A96F4B1A09B2F200145668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2A96F4C1A09B2F200145668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2A96F4E1A09B2F200145668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ToNight8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2A96F4F1A09B2F200145668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ToNight8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2A96F511A09B2F200145668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToNight8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToNight8.app/ToNight8";
+			};
+			name = Debug;
+		};
+		B2A96F521A09B2F200145668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToNight8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToNight8.app/ToNight8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2A96F221A09B2F200145668 /* Build configuration list for PBXProject "ToNight8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A96F4B1A09B2F200145668 /* Debug */,
+				B2A96F4C1A09B2F200145668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A96F4D1A09B2F200145668 /* Build configuration list for PBXNativeTarget "ToNight8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A96F4E1A09B2F200145668 /* Debug */,
+				B2A96F4F1A09B2F200145668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A96F501A09B2F200145668 /* Build configuration list for PBXNativeTarget "ToNight8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A96F511A09B2F200145668 /* Debug */,
+				B2A96F521A09B2F200145668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2A96F311A09B2F200145668 /* ToNight8.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2A96F321A09B2F200145668 /* ToNight8.xcdatamodel */,
+			);
+			currentVersion = B2A96F321A09B2F200145668 /* ToNight8.xcdatamodel */;
+			path = ToNight8.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2A96F1F1A09B2F200145668 /* Project object */;
+}
